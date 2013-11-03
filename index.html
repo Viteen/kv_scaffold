@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Awesome Site Title</title>
+    <title>Pool Night</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
@@ -9,6 +9,39 @@
     <link rel="stylesheet" type="text/css" href="screen.css">
 </head>
 <body>
+<form action="">
+<div class="container">
+	<div class="row">
+		<h2>Create Your Event</h2>
+		<fieldset>
+			<label class="event-primary">Event title</label>
+			<input type="text" class="form-control" placeholder="event title" />
+			
+			<label class="event-primary">Event location</label>
+			<input type="text" class="form-control" placeholder="event location" />
+			
+			<label class="event-primary">Event date</label>
+			<input type="text" class="form-control" placeholder="event date" />
+			
+			<label class="event-primary">Privacy</label>
+			<label><input type="radio" name="privacy" value="private"> Private</label>
+			<label><input type="radio" name="privacy" value="public"> Public</label>
+			<br>
+
+			<label><input type="checkbox" name="guests-can-invite-friends" value="yes"> Guests can invtite friends</label>
+			<br>
+
+			<label><input type="checkbox" name="drinks-will-be-free" value="yes"> Drinks will be free</label>
+			<br>
+
+			<label><input type="checkbox" name="there-will-be-dancing" value="yes"> There will be dancing</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<button class="btn btn-info" type="submit"> Create Event</button>
+</form>
+	</div>
+</div>
 	
 </body>
 </html>
