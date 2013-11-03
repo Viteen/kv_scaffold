@@ -6,8 +6,22 @@
 }
 
 body {
-    background: pink;
-    
+    background: white;
+  
+}
+
+.title {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: .2em;
+}
+
+.haring-art {
+    background-image: url(images/keith-haring.jpg);
+    background-repeat: no-repeat;
+/*    position: fixed;*/
+    height: 650px;
 }
 
 .event-primary {
@@ -16,8 +30,12 @@ body {
 	font-size: 1.2em;
 }
 
+.btn {
+   color: black;
+}
+
 @media screen and (min-width: 800px) {
     body {
-        background: #C8C8C8;
+        background: white;
     }
 }

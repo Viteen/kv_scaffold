@@ -9,39 +9,46 @@
     <link rel="stylesheet" type="text/css" href="screen.css">
 </head>
 <body>
-<form action="">
-<div class="container">
-	<div class="row">
-		<h2>Create Your Event</h2>
-		<fieldset>
-			<label class="event-primary">Event title</label>
-			<input type="text" class="form-control" placeholder="event title" />
-			
-			<label class="event-primary">Event location</label>
-			<input type="text" class="form-control" placeholder="event location" />
-			
-			<label class="event-primary">Event date</label>
-			<input type="text" class="form-control" placeholder="event date" />
-			
-			<label class="event-primary">Privacy</label>
-			<label><input type="radio" name="privacy" value="private"> Private</label>
-			<label><input type="radio" name="privacy" value="public"> Public</label>
-			<br>
+<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://viteen.wufoo.com/forms/z19xg8r11vz4ib7/#public">
+<!-- <form action=""> -->
+	<div class="haring-art"</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="title">Create Your Event</div>
+				<fieldset>
+					<label class="event-primary">Event title</label>
+					<input type="text" name="Field1" class="form-control" placeholder="event title" />
+					
+					<label class="event-primary">Event location</label>
+					<input type="text" name="Field2" class="form-control" placeholder="event location" />
+					
+					<label class="event-primary">Event date</label>
+					<input type="text" name="Field3" class="form-control" placeholder="event date" />
+					
+					<label class="event-primary">Privacy</label>
+					<label><input type="radio" name="Field5" value="private"> Private</label>
+					<label><input type="radio" name="Field5" value="public"> Public</label>
+					<br>
 
-			<label><input type="checkbox" name="guests-can-invite-friends" value="yes"> Guests can invtite friends</label>
-			<br>
+					<label><input type="checkbox" name="Field6" value="yes"> Guests can invtite friends</label>
+					<br>
 
-			<label><input type="checkbox" name="drinks-will-be-free" value="yes"> Drinks will be free</label>
-			<br>
+					<label><input type="checkbox" name="Field7" value="yes"> Drinks will be free</label>
+					<br>
 
-			<label><input type="checkbox" name="there-will-be-dancing" value="yes"> There will be dancing</label>
-		</fieldset>
-		<br>
-		<fieldset>
-			<button class="btn btn-info" type="submit"> Create Event</button>
+					<label><input type="checkbox" name="Field8" value="yes"> There will be dancing</label>
+				</fieldset>
+				<br>
+				<fieldset>
+					<button class="btn btn-info" type="submit"> Create Event</button>
+				<input type="hidden" id="idstamp" name="idstamp" value="crrgo+agWstcHir7sBnhglb3nNWzh8QDxwLdBmgQbPw=" />
+			</div>
 </form>
 	</div>
 </div>
+
+
 	
 </body>
 </html>
